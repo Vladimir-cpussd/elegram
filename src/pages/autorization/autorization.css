@@ -1,0 +1,33 @@
+
+.autorization-box {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    
+    
+
+}
+
+.autorization-box h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+
+
+.autorization-box-input input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+p {
+    color: #333;
+}

@@ -1,0 +1,35 @@
+
+
+.main {
+    background-color: rgb(176, 156, 130);
+    display: flex;
+    
+    max-width: none;
+  margin: 0 ;
+  padding: 0;
+}
+
+.sidebar {
+    width: 30vh;
+    height: 100vh;
+    background-color: aqua;
+    margin-left: 0px;
+    padding: 1vh;
+}
+
+.sidebar-catalog {
+    width: 100%;
+    
+    background-color: beige;
+    
+}
+
+.chatlist {
+    width: 60vh;
+    background-color: blue;
+    
+}
+
+.chatwindow {
+    width: 100vh;
+}

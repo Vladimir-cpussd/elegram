@@ -1,0 +1,24 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Важно! */
+}
+
+.autorization-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.autorization-box-input {
+  text-align: center;
+}
+p {
+  
+  margin: 1vh;
+}
+input {
+  width: 20vh;
+}
+
+

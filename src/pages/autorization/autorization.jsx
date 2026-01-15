@@ -133,7 +133,6 @@ function Autorization() {
   return (
     <div className='autorization-box'>
       <h2>Авторизация</h2>
-      
       {/* Сообщение об ошибке */}
       {error && (
         <div className="error-message" style={{ 
@@ -195,6 +194,7 @@ function Autorization() {
         onClick={() => {
           console.log('Кнопка "Тест соединения" нажата');
           getData();
+          navigate('/chats');
         }}
         style={{
           marginTop: '20px',

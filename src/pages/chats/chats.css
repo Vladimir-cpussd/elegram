@@ -1,35 +1,84 @@
 
 
 .main {
-    background-color: rgb(176, 156, 130);
-    display: flex;
     
+    display: flex;
+    color: aliceblue;
     max-width: none;
-  margin: 0 ;
-  padding: 0;
+    margin: 0 ;
+    padding: 0;
 }
+
+
+p {
+    color: aliceblue;
+}
+
+
+/*левый сайдбар с чатами*/
+
+
 
 .sidebar {
-    width: 30vh;
+    width: 20vh;
     height: 100vh;
-    background-color: aqua;
+    overflow-y: scroll;
+    background-color: rgb(17, 17, 17);
     margin-left: 0px;
-    padding: 1vh;
+    color: aliceblue;
+    padding: 0;
 }
 
-.sidebar-catalog {
-    width: 100%;
-    
-    background-color: beige;
-    
-}
-
-.chatlist {
-    width: 60vh;
+.profile {
     background-color: blue;
+    height: 5vh;
     
 }
 
-.chatwindow {
-    width: 100vh;
+
+.chat-item {
+    padding: 1vh;
+    background-color: rgb(21, 21, 21);
+    border-top: 1px solid rgb(39, 39, 39);
 }
+
+/*сам чат диалогов */
+.chatwindow {
+    width: 100%;
+    background-color: rgb(53, 53, 53);
+    
+}
+
+/*шапка диалога*/
+.chatwindow-title { 
+
+    width: 100%;
+    height: 7vh;
+    background-color: rgb(21, 21, 21);
+}
+/*чат диалога*/
+.chatwindow-dialog {
+    width: 100%;
+    height: 80%;
+
+}
+
+.start-message {
+    text-align: center;
+    color: rgb(106, 106, 106);
+    
+}
+/*футтер диалога(поле инпут, кнопка отправить и т.д.)*/
+.chatwindow-input {
+    padding-left:3vh;
+    text-align: center;
+    
+    
+}
+
+.chat-textarea {
+    width: 40%;
+    height: 40px;
+}
+
+

@@ -10,7 +10,7 @@ function Chats() {
             <div className="main">
                 
                 <SideBar/>
-                <ChatList/>
+                {/*<ChatList/>*/}
                 <ChatWindow/>
             </div>
         </>
